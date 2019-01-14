@@ -1,6 +1,6 @@
 body {
 	background-color: #435361;
-	font-family: Roboto sans-serif;
+	font-family: Roboto-Light sans-serif;
 }
 .contenu {
 	font-family: Roboto sans-serif;
@@ -13,12 +13,12 @@ body {
 	color: black;
 }
 .title {
-	background-color: #37474F;
-	color: white;
+	color: #37474F;
 	padding: 15px;
 	height: auto;
 	text-align: center;
 	margin: auto;
+	font-size: 40px;
 
 }
 .subtitle {
@@ -81,8 +81,69 @@ figcaption {
 }
 
 footer {
-	background-color: #78909c;
+	background-color: #263238;
 	text-align: center;
 	color: white;
+	width: 100%;
+	margin: auto auto;
+	height: 40px;
+	padding: 15px;
+}
+blockquote {
+	font-size: 25px;
+	text-align: center;
+	color: gray;
+}
+
+a:active {
+	color: tomato;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover{
+	color: tomato;
+}
+.first-letter {
+	font-size: 30px;
+	
+}
+header {
+	display: block;
+	margin: auto auto;
+	width: 930px;
+
+}
+li a {
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+li a:hover{
+	background-color: #111;
+}
+li {
+	float: left;
+}
+.liste {
+	float: left;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #263238;
+
+}
+
+.logo {
+	background-color: black;
+	color: tomato;
 }
 
