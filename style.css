@@ -1,0 +1,46 @@
+body {
+	background-color: #435361;
+	font-family: Roboto sans-serif;
+}
+.contenu {
+	font-family: Roboto sans-serif;
+	background-color: #fafafa;
+	padding: 15px;
+	height: auto auto;
+	display: block;
+	margin: auto auto;
+	width: 900px;
+	color: black;
+}
+.title {
+	background-color: #37474F;
+	color: white;
+	padding: 15px;
+	height: auto;
+	text-align: center;
+	margin: auto;
+
+}
+.subtitle {
+	font-family: Roboto sans-serif;
+	font-style: italic;
+	font-size: 20px;
+}
+.quote {
+	font-size: 15px;
+	font-family: Arial italic sans-serif;
+}
+#Auteur {
+	text-align: right;
+	margin-right: 10px;
+}
+hr {
+	width: 50px;
+	align-content: left;
+}
+img {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
