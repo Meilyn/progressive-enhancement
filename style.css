@@ -1,6 +1,7 @@
 body {
 	background-color: #435361;
 	font-family: Roboto-Light sans-serif;
+	/*width: 90%;*/
 }
 .contenu {
 	font-family: Roboto sans-serif;
@@ -11,6 +12,7 @@ body {
 	margin: auto auto;
 	width: 900px;
 	color: black;
+	border: 1px solid grey;
 }
 .title {
 	color: #37474F;
@@ -26,6 +28,7 @@ body {
 	font-style: italic;
 	font-size: 20px;
 	text-align: center;
+	line-height: 35px;
 }
 .quote {
 	font-size: 12px;
@@ -93,6 +96,12 @@ blockquote {
 	font-size: 25px;
 	text-align: center;
 	color: gray;
+	width: 50%;
+	margin: auto auto;
+	background-color: #eceff1;
+	padding: 30px;
+	border-left: 3px solid #263238;
+	font-style: italic;
 }
 
 a:active {
@@ -115,6 +124,7 @@ header {
 	display: block;
 	margin: auto auto;
 	width: 930px;
+	text-transform: uppercase;
 
 }
 li a {
@@ -146,4 +156,19 @@ ul {
 	background-color: black;
 	color: tomato;
 }
+.bien {
+	text-transform: uppercase;
+	color: green;
+}
+.mal {
+	color: tomato;
+	text-transform: uppercase;
+}
 
+.puce1 {
+	background-image: url('bien.png');
+	padding-right: 82px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	align-self: left;
+}
