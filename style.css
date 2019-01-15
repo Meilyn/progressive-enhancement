@@ -199,3 +199,6 @@ aside {
 	right: 0px;
 	bottom: 0px;
 }
+.closebtn{
+	float: right;
+}
