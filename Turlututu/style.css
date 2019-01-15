@@ -1,0 +1,53 @@
+body{
+	background-color: #03a9f4;
+	margin: auto auto;
+	width: 100%;
+	font-family: 'Nanum Gothic';
+}
+
+li {
+	display: inline-block;
+	padding: 8px;
+}
+a {
+	text-decoration: none;
+}
+header{
+	background-color: #3E4551;
+	padding: 2px;
+}
+ul, a{
+	color: white;
+	text-decoration-style: none;
+}
+.geek {
+	position: relative;
+	top: 40px;
+	left: 90px;
+}
+.logo {
+	position: relative;
+	left: 550px;
+	top: -200px;
+}
+.cover{
+	font-size: 30px;
+	position: relative;
+	left: 450px;
+	top: -200px;
+	color: white;
+}
+#btn-cover{
+	background-color: tomato;
+	color: white;
+	padding: 15px;
+	border-radius: 25px;
+	font-size: 20px;
+}
+.projets {
+	text-align: center;
+	background-color: white;
+	font-size: 20px;
+	color: #3E4551;
+	padding: 20px;
+}
