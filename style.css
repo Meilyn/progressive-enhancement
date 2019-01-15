@@ -61,6 +61,8 @@ h3,h2 {
 }
 
 p {
+	/*font-size: 10px;
+	max-width: 300px;*/
 	display: block;
 	width: 90%;
 	text-align: justify;
