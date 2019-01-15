@@ -5,12 +5,13 @@
 	<title>Turlututu Maquete</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	<link rel="stylesheet" href="normalize.css">
 </head>
 <body>
 	<header>
 		<nav>
 			<ul>
-				<img src="restdblogo.png" alt="logo" width="100">
+				<li><img src="restdblogo.png" alt="logo" width="100"></li>
 				<li><a href="#features">Features</a></li>
 				<li><a href="#docs">Docs</a></li>
 				<li><a href="#blog">Blog</a></li>
@@ -21,18 +22,44 @@
 			</ul>
 		</nav>
 	</header>
-	<section class="geek">
-		<img src="JSGeek.png" alt="Man Geek">
+	<section>
+		<img src="JSGeek.png" alt="Man Geek" class="geek">
+		<article class="cover">
+			<img src="restdblogo.png" alt="Logo restdb.io" width="250" class="logo">
+			<h3 class="slogan">The Plug and Play Database service</h3>
+			<input type="button" value="Start To Building NOW>>" id="btn-cover">
+		</article>
 	</section>
-	<section class="logo">
-		<img src="restdblogo.png" alt="Logo restdb.io" width="250">
-	</section>
-	<article class="cover">
-		<h3 class="slogan">The Plug and Play Database service</h3>
-		<input type="button" value="Start To Building NOW>>" id="btn-cover">
-	</article>
 	<section class="projets">
 		<h2>For awesome projects with deadlines</h2>
+	</section>
+	<article class="container">
+		<div >
+			<h3>> Simple to use</h3>
+			<p>Turlututu.io is probably the easiest online NoSQL database backend for web and serverless applications. Model your information quickly. The data management application, schema and REST API are instantly available.
+			</p>
+		</div>
+		<div>
+			<h3>> Productive</h3>
+			<p>
+			Collaborate and work with data in a worspace on your desktop, laptop or smartphone. Quicly search through all your data. Secure access with roles.
+			</p>
+		</div>
+		<div>
+			<h3>> Build for the modern web</h3>
+			<p>
+				The online database tool is designed for the modern web with high performance REST API and NoSQL MongoDB query language, server-side codehooks, user authentication (Auth0), Media Archive, Realtime messages and secure Ajax/CORS.
+			</p>
+		</div>
+		<div>
+			<h3>> More than a database</h3>
+			<p>
+				Turlututu.io NoSQL databases can also serve web pages. Use HTML, Javascript, jQuery, Angular, ReactJS (or your favorite framework) on restdb.io Pages with server-side data-binding. Add your own secure domains for the web pages and the REST AP
+			</p>
+		</div>
+	</article>
+	<section class="projets">
+		<h2>Innovative teams gets more done with turlututu.com</h2>
 	</section>
 </body>
 </html>
