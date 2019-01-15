@@ -1,6 +1,6 @@
 body {
 	background-color: #435361;
-	font-family: Roboto-Light sans-serif;
+	font-family: Roboto sans-serif;
 	/*width: 90%;*/
 }
 .contenu {
@@ -93,7 +93,7 @@ footer {
 	padding: 15px;
 }
 blockquote {
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
 	color: gray;
 	width: 50%;
@@ -158,7 +158,7 @@ ul {
 }
 .bien {
 	text-transform: uppercase;
-	color: green;
+	color: #263238;
 }
 .mal {
 	color: tomato;
@@ -167,8 +167,30 @@ ul {
 
 .puce1 {
 	background-image: url('bien.png');
-	padding-right: 82px;
+	/*display: inline-block;*/
 	background-repeat: no-repeat;
-	background-size: 20px;
+	background-size: 19px;
 	align-self: left;
+	background-position: 105%;
+}
+#gif {
+	float: left;
+	padding: 7px;
+	width: 300px;
+	height: 250px;
+
+}
+aside {
+	background-color: #59698d;
+	padding: 18px;
+	color: white;
+	border: 3px solid #DDDDCC;
+	width: 250px;
+	font-weight: bold;
+	/*float: right;*/
+	/*position: -webkit-sticky;*/
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	
 }
