@@ -69,3 +69,24 @@ ul, a {
 	padding: 5px 5px;
 	margin: 15px 15px;
 }
+
+.costumer {
+	background: #eeeeee;	
+}
+.costumer img{
+	padding: 40px 50px;
+	align-content: center
+}
+.group-btn {
+	background-color: #fff;
+	width: 100%;
+	padding: 20px 20px;
+	align-content: center;
+}
+input {
+	background-color: #01579b;
+	padding: 10px 10px;
+	color: white;
+	border-radius: 10px;
+
+}
