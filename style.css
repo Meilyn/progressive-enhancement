@@ -1,10 +1,14 @@
 body {
 	background-color: #435361;
-	font-family: Roboto sans-serif;
+	font-family: Roboto;
 	/*width: 90%;*/
 }
-.contenu {
+/*@font-face{
 	font-family: Roboto sans-serif;
+	src:url(https://fonts.googleapis.com/css?family=Roboto);
+}*/
+.contenu {
+	font-family: Roboto;
 	background-color: #fafafa;
 	padding: 15px;
 	height: auto auto;
@@ -12,7 +16,7 @@ body {
 	margin: auto auto;
 	width: 900px;
 	color: black;
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 }
 .title {
 	color: #37474F;
@@ -30,14 +34,16 @@ body {
 	text-align: center;
 	line-height: 35px;
 }
-.quote {
-	font-size: 12px;
+q {
+	font-size: 20px;
 	font-family: Arial italic sans-serif;
 	text-align: center;
+	
 }
 #Auteur {
 	text-align: right;
 	margin-right: 10px;
+	color: #59698d;
 }
 hr {
 	width: 50px;
@@ -192,5 +198,4 @@ aside {
 	position: fixed;
 	right: 0px;
 	bottom: 0px;
-	
 }
