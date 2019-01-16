@@ -12,6 +12,9 @@ li {
 a {
 	text-decoration: none;
 }
+a:hover {
+	color: tomato;
+}
 header {
 	background-color: #3E4551;
 	padding: 2px;
@@ -74,19 +77,17 @@ ul, a {
 	background: #eeeeee;	
 }
 .costumer img{
-	padding: 40px 50px;
+	padding: 40px 40px;
 	align-content: center
 }
-.group-btn {
-	background-color: #fff;
-	width: 100%;
-	padding: 20px 20px;
-	align-content: center;
-}
-input {
-	background-color: #01579b;
-	padding: 10px 10px;
-	color: white;
-	border-radius: 10px;
 
+section.group-btn {
+	background-color: #fff;
+	padding: 20px;
 }
+
+
+ul.group-btn {
+	background-color: #000;
+}
+
