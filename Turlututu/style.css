@@ -15,7 +15,7 @@ li {
 a {
 	text-decoration: none;
 }
-a:hover {
+header a:hover {
 	color: tomato;
 }
 header {
@@ -61,6 +61,7 @@ ul, a {
 	padding: 20px;
 }
 .container {
+/*	width: 90%;*/
 	display: grid;
 	grid-template-columns: auto auto;
 
@@ -89,8 +90,9 @@ section.group-btn {
 	padding: 50px;
 }
 
-a:hover .group-btn  {
-	background-color: tomato;
+ .group-btn li:hover  {
+	background-color: tomato; 
+	color: white;
 }
 
 .group-btn li {
