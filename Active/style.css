@@ -1,0 +1,27 @@
+body {
+	background-color: #d0d6e2;
+}
+li {
+	display: inline;
+	padding: 8px;
+}
+a {
+	text-decoration: none;
+}
+header h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.grid-container {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;	
+}
+.grid-container > div {
+	background-color: #3b465e;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
