@@ -168,3 +168,32 @@ header h1 {
 	margin: auto;
 
 }
+form {
+	background-color: #eceff1;
+	text-align: left;
+	width: 40%;
+	margin: auto;
+	padding:20px 20px;
+	margin-bottom: 20px;
+}
+form p {
+	text-align: center;
+}
+input  {
+	width: 100%;
+	height: 20px;
+	margin: auto;	
+}
+form a {
+	background-color: 
+	text-align: center;
+	margin: 10px;
+	background-color: #1e88e5;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	align-items: center;
+}
+#data {
+	color: grey;
+}
