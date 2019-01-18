@@ -159,3 +159,12 @@ header h1 {
 	margin: auto;
 	grid-gap: 1px;
 }
+.contact {
+	text-align: center;
+	background-color: #fff;
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	margin: auto;
+
+}
