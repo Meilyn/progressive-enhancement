@@ -197,3 +197,28 @@ form a {
 #data {
 	color: grey;
 }
+#data2 {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #3b465e;
+	width: auto;
+	height: auto;
+	color: white;
+}
+
+footer .grid-containe {
+	color: grey;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;	
+	padding: 10px;
+}
+footer li {
+	display: block;
+
+}
+footer a{
+	color: #f5f5f5;
+}
